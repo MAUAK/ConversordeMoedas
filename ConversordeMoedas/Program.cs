@@ -40,7 +40,7 @@ namespace ConversordeMoedas
             //Chamando o método para fazer o valor total com o IOF
             cm.ValorTotalIOF();
             //Imprimindo o valor total
-            Console.WriteLine("\nVALOR TOTAL DA COMPRA COM IOF = " + cm.ValorTotal);
+            Console.WriteLine("\nVALOR TOTAL DA COMPRA COM IOF = " + cm.ValorTotal.ToString("F2", CultureInfo.InvariantCulture));
 
         }
     }
